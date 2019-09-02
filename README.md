@@ -1,46 +1,47 @@
 # Compiler
 Compiler for a C-like language. Converts the code to MIPS Assembly Language which can be run using SPIM.
 
-# Inside
+## Inside
 1. Lexical analysis done in Lexer.lex
 2. syntax analysis , symantic analysis and intermediate code generation code done in parser.y
 3. Three_address_code.txt contains intermediate code.
 4. mips code generated using ASMgenerator.cpp , Register.cpp and Debugger.cpp
 5. mips_code.s contains mips code.
  
-# Features
-Data types : void, int, float, bool, char, string
+## Features of the Language
 
-Variable Declaration
+* Data types : void, int, float, bool, char, string
 
-Variable Assignment
+* Variable Declaration
 
-Function Declaration
+* Variable Assignment
 
-Reading from console
+* Function Declaration
 
-Printing to console
+* Reading from console
 
-Logical Expressions involving '&&' and '||'
+* Printing to console
 
-Relational operators : '>', '<', '>=', '<=', '==', '<>', '!='
+* Logical Expressions involving '&&' and '||'
 
-Arithmatic operators : '+', '-', '*', '/', '%'
+* Relational operators : '>', '<', '>=', '<=', '==', '<>', '!='
 
-Unary Operators : '+', '-'
+* Arithmatic operators : '+', '-', '*', '/', '%'
 
-For Loop
+* Unary Operators : '+', '-'
 
-Foreach loop
+* For Loop
 
-While Loop
+* Foreach loop
 
-Conditional statements
+* While Loop
 
-Nested code blocks
+* Conditional statements
 
-Explicit Scope specifiers
+* Nested code blocks
 
-breaks in loops
+* Explicit Scope specifiers
 
-continues in loops
+* breaks in loops
+
+* continues in loops
